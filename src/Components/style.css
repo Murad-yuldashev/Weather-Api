@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.topNavContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff345;
+}
+.topNavContainer > h1 {
+  padding: 25px 0;
+  font-size: 3rem;
+}
+.searchBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.search {
+  font-size: 1.5rem;
+  width: 30%;
+  border: none;
+  padding: 20px;
+  border-bottom: 2px solid #868684;
+}
+.search:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #868684;
+}
+.city {
+  width: 500px;
+  margin: 5% auto;
+  box-shadow: 0 0 20px #0808084d;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.details {
+  margin-top: 20px;
+}
+.cityName {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.cityTemp {
+  font-size: 20px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
